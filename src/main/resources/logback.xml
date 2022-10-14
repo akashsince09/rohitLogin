@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE logback>
 <configuration>
-
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{15}#%line %msg\n</pattern>
-        </encoder>
-    </appender>
-
-    <
-        <level value="error"/>
-        <appender-ref ref="STDOUT"/>
+Dame="STDOUT" classxdsweos.logback.core.CvwsedsoleAppender">
+        <encoder>wsedxv 
+            <pattern>%date{HH:mm:ss.SSS} [%thread] %-sedgv vwlevel %logger{15}#%line %msg\n</pattern>
+        </encoder>de
+</appenvxzdg SXDnder-ref ref="STDOUT"/>
     </root>
 
 </configuration>
+GDXVGWGDV DXWGVE DEGV
+WE
+ dgW
+EDV
+WED
+gvWE
+dgedg
+wr
+eg
