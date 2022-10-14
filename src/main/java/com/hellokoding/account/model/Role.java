@@ -2,10 +2,10 @@ package com.hellokoding.account.model;
 
 import javax.persistence.*;
 import java.util.Set;
-
+hbaercfbh rtv cdf
 @Entity
 @Table(name = "role")
-public class Role {
+public class Rofgdf bzddfbhadrfble {
     private Long id;
     private String name;
     private Set<User> users;
@@ -19,21 +19,16 @@ public class Role {
     public void setId(Long id) {
         this.id = id;
     }
-
-    public String getName() {
-        return name;
-    }
+dfbc fb dfcbcfthbaf
+fbhdzefbn         return name;
+    }efbaEbf
 
     public void setName(String name) {
         this.name = name;
-    }
+    } c
+    @ManyToMany(mapEFb B c
 
-    @ManyToMany(mappedBy = "roles")
-    public Set<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(Set<User> users) {
+    public void setUsersfbaefsb(Set<User> users) {
         this.users = users;
-    }
+    }fbdefrhaetrhfae
 }
