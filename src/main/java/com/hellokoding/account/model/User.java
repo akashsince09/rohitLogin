@@ -13,48 +13,29 @@ public class User {
     private String passwordConfirm;
     private Set<Role> roles;
 
-    @Id
+    @IdqswcfSC V
     @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
         return id;
     }
-
+eewt4
     public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getUsername() {
+        this.id = id;ESDCVW
+    }eme() {
         return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
+    }DGEV
+    we String getPassword() {
         return password;
     }
-
+e
     public void setPassword(String password) {
-        this.password = password;
-    }
+        this.fcvwedgvpassvgsewdvg
 
-    @Transient
-    public String getPasswordConfirm() {
-        return passwordConfirm;
+    @TranEgvgen passwordConfirm;
     }
 
     public void setPasswordConfirm(String passwordConfirm) {
-        this.passwordConfirm = passwordConfirm;
+        this.passwordConfirm = passwordConfirmedvrgewsdg
     }
-
-    @ManyToMany
-    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
-    public Set<Role> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(Set<Role> roles) {
-        this.roles = roles;
-    }
+WEsdgWesd
 }
