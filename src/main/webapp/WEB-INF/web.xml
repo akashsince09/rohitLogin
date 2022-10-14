@@ -1,8 +1,6 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://java.sun.com/xml/ns/javaee"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-         version="2.5">
+         xsi:sergerg
 
     <display-name>Account Registration Web Application</display-name>
 
@@ -11,32 +9,27 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/appconfig-root.xml</param-value>
     </context-param>
-
+ergaerbhaefbhaerhd
     <filter>
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
     </filter>
-    <filter-mapping>
+    <filter-mapping>bhfb fh earh aerh ear earh ear her
         <filter-name>springSecurityFilterChain</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-
+h erh erh er her
     <servlet>
         <servlet-name>dispatcher</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
+h        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    h s      <param-name>contextConfigLocation</param-name>
             <param-value></param-value>
-        </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet-mapping>
+ h  he herh       </init-param>
+     arherh  erservlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-</web-app>
+    </listener>a h er herhe  herh erh eh
